@@ -18,7 +18,7 @@ EditText usuario,contra;
 //Button ingresar,nuevo;
 ConexionWeb conexionWeb;
 Button ingresar;
-TextView etiqueta;
+TextView etiqueta,registrar;
 
 
     @Override
@@ -29,9 +29,18 @@ TextView etiqueta;
        // etiqueta = findViewById(R.id.txtetiquqeta);
         usuario= findViewById(R.id.edtusuario);
         contra= findViewById(R.id.edtcontra);
+        registrar=findViewById(R.id.Registrar);
 
         ingresar=findViewById(R.id.btningresar);
        // nuevo=findViewById(R.id.btncrearnuevo);
+
+        registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abrirRegistro = new Intent(login.this,registro.class);
+                startActivity(abrirRegistro);
+            }
+        });
 
         ingresar.setOnClickListener(new View.OnClickListener() {
             @Override

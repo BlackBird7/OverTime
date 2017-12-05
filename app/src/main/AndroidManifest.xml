@@ -31,7 +31,8 @@
         <activity android:name=".menu" />
         <activity android:name=".consultaDePuntos" />
         <activity android:name=".splash" />
-        <activity android:name=".perdiste2"></activity>
+        <activity android:name=".perdiste2" />
+        <activity android:name=".registro"></activity>
     </application>
 
 </manifest>
