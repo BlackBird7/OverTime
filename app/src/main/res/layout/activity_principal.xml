@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondomenu"
+    tools:context="mx.edu.ittepic.gengarmortal.Principal">
+
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gengar Mortal"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="#d2bebe"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/juego1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J U G A R"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:textColor="#d2bebe"
+        android:layout_marginTop="100dp"/>
+
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/acerca_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textColor="#d2bebe"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Acerca de"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#d2bebe"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Salir"/>
+
+
+</LinearLayout>

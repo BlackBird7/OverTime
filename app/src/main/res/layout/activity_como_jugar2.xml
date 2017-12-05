@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.ittepic.gengarmortal.ComoJugar"
+    android:background="@drawable/fondo1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo jugar?"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitán, Nuestro mundo a sido invadido por círculos de colores(grita aterrado)!! Si no hace algo vamos a morir x__x , ayúdenos a eliminar las amenazas fulminandolas con tu asombroso poder táctil, basta con que las toque"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#d2bfbf"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pero mucho cuidado con 'Gengar' si lo toca morirá, no lo podrá eliminar tan fácil, para poder matarlo debe acabar con llos anillosde colores, es lo que le da poder malvado, pero APRESURECE!! cada segundo que pasa gengar se fortalece si su aura malvada (De color negro) no permitirá que toque los anillos y no podrá vencer "
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ec4040"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar Misión"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abandonar"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>

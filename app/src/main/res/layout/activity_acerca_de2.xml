@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoacerca"
+    tools:context="mx.edu.ittepic.gengarmortal.AcercaDe2">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minijuegos Pokemon 1.0"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#f22121"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estos juegos fueron realizados para la clase de Dispositivos móviles, son hechos por: "
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#d0d2c0"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos Emmanuel Zambrano"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="#cad76d"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leobardo Ivan Estrada"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="#cad76d"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arturo Escalante Licona"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="#cad76d"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/itt"/>
+
+</LinearLayout>
